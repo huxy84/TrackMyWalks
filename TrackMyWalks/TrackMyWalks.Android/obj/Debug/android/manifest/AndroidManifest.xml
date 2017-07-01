@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="TrackMyWalks.Android" android:installLocation="auto" android:versionCode="1" android:versionName="1">
+  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="25" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="TrackMyWalks.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+    <!-- Work -->
+    <!--<meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyABp2nt1qgu_RvwI7VRMGaFMKLyXrqUPGM" />-->
+    <!-- Laptop -->
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDW3jRAE8jzkMpaKQnm2Gw08sOkldaAGo4" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="TrackMyWalks" android:theme="@style/MainTheme" android:name="md56b0defb45e6c9bfb8195e44859a4e830.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TrackMyWalks.Android.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.TrackMyWalks.Android" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <application android:label="TrackMyWalks.Android"></application>
+</manifest>

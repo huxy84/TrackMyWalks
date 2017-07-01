@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrackMyWalks.WalkTrailPage" Title="Walks Trail">
+    <ContentPage.Content>
+        <!--<ScrollView Padding="10">
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                <Button
+                    x:Name="beginTrailWalk"
+                    BackgroundColor="#008080"
+                    TextColor="White"
+                    Text="Begin this Trail"
+                    Clicked="beginTrailWalk_Clicked"
+                />
+
+                <Image x:Name="walkTrailImage" Aspect="AspectFill" Source="{Binding walkItem.ImageUrl}" />
+
+                <Label
+                    x:Name="trailNameLabel"
+                    FontSize="28"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    Text="{Binding walkItem.Title}"
+                />
+
+                <Label
+                    x:Name="trailKilometersLabel"
+                    FontSize="12"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    Text="{Binding walkItem.Kilometers, StringFormat={'Length: {0} Kikometers'}}"
+                />
+
+                <Label
+                    x:Name="trailDifficultyLabel"
+                    FontSize="12"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    Text="{Binding walkItem.Difficulty, StringFormat={'Difficulty: {0}'}}"
+                />
+
+                <Label
+                    x:Name="trailFullDescription"
+                    FontSize="11"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    Text="{Binding walkItem.Notes}"
+                    HorizontalOptions="FillAndExpand"
+                />
+            </StackLayout>
+        </ScrollView>-->
+    </ContentPage.Content>
+</ContentPage>

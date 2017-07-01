@@ -1,0 +1,2 @@
+D:\Development\Study\Frameworks\Xamarin\TrackMyWalks\TrackMyWalks\TrackMyWalks.UWP\TrackMyWalks.UWP.csproj;x86
+D:\Development\Study\Frameworks\Xamarin\TrackMyWalks\TrackMyWalks\TrackMyWalks\TrackMyWalks.csproj;neutral

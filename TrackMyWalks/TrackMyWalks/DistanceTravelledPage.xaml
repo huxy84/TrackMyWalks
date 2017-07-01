@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TrackMyWalks.DistanceTravelledPage"
+             Title="Distance Travelled"
+>
+    <ContentPage.Content>
+        <!--<ScrollView Padding="10">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <Label
+                    x:Name="trailNameLabel"
+                    FontSize="18"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    Text="{Binding walkItem.Title}"
+                />
+
+                <Label
+                    x:Name="trailDistanceTravelledLabel"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    Text="Distance Travelled:"
+                    HorizontalTextAlignment="Center"
+                />
+
+                <Label
+                    x:Name="trailDifficultyLabel"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    Text="{Binding walkItem.Distance, StringFormat={'Distance: {0}'}}"
+                    HorizontalOptions="Center"
+                />
+
+                <Label
+                    x:Name="totalTimeTakenLabel"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    Text="Time Taken:"
+                    HorizontalTextAlignment="Center"
+                />
+                <Label
+                    x:Name="totalTimeTaken"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    Text = "0h 0m 0s"
+                    HorizontalTextAlignment="Center"
+                />
+
+                <Button
+                    x:Name="walksHomeButton"
+                    BackgroundColor="#008080"
+                    TextColor="White"
+                    Text="End this Trail"
+                    Clicked="walksHomeButton_Clicked"
+                />
+            </StackLayout>
+        </ScrollView>-->
+    </ContentPage.Content>
+</ContentPage>
